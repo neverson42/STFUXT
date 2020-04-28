@@ -1,8 +1,3 @@
-
-
-
-
-
 ::Mutes the sounds made by XT and the MiniXT pet
 ::How to use:
 ::Create a text file and copy all of this into it.
@@ -16,22 +11,21 @@
 
 
 @echo OFF
-MKDIR &quot;%~dp0&quot;Sound
-MKDIR &quot;%~dp0&quot;SoundCreature
-MKDIR &quot;%~dp0&quot;SoundCreatureXT002Deconstructor
+MKDIR "%~dp0"\Sound
+MKDIR "%~dp0"\Sound\Creature
+MKDIR "%~dp0"\Sound\Creature\XT002Deconstructor
 
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Aggro01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_HeartOpen01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_HeartClose01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Special01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Slay01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Slay02.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Berserk01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Death01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Adds01.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_HeartOpen.wav&quot;
-break &gt; &quot;%~dp0SoundCreatureXT002DeconstructorUR_XT002_Special.wav&quot;
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Aggro01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_HeartOpen01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_HeartClose01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Special01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Slay01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Slay02.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Berserk01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Death01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Adds01.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_HeartOpen.wav"
+break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Special.wav"
 
-echo XT Muted. To Undo, delete the created files in %~dp0 SoundCreatureXT002Deconstructor
+echo XT Muted. To Undo, delete the created files in %~dp0 \Sound\CreatureXT002\Deconstructor
 pause
-
