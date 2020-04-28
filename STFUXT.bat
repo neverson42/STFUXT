@@ -1,6 +1,5 @@
 ::Mutes the sounds made by XT and the MiniXT pet
 ::How to use:
-::Create a text file and copy all of this into it.
 ::Place STFUXT.bat in your WoW install directory and run it.
 ::It will create a /Sound folder and place dummy files in there that override the default sounds of the creature.
 
