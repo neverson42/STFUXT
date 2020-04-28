@@ -27,5 +27,5 @@ break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Adds01.wav"
 break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_HeartOpen.wav"
 break > "%~dp0\Sound\Creature\XT002Deconstructor\UR_XT002_Special.wav"
 
-echo XT Muted. To Undo, delete the created files in %~dp0 \Sound\CreatureXT002\Deconstructor
+echo XT Muted. To Undo, delete the created files in %~dp0 Sound\CreatureXT002\Deconstructor
 pause
