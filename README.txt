@@ -7,6 +7,6 @@ How to Install:
 
 How to uninstall:
 1. Close the game
-2. Delete the [WoWdirectory]/Sound/ directory
+2. Delete the [WoWdirectory]/Sound/Creature/XT002Deconstructor directory
 
 You're welcome.
