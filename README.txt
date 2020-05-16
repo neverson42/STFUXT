@@ -1,3 +1,7 @@
+##STFUXT
+Batch file to override the annoying-ass sounds that XT and the Lil' XT pet make
+
+
 Tested and working on WotLK, sunwell.pl
 
 How to Install:
