@@ -1,4 +1,4 @@
-##STFUXT
+# STFUXT
 Batch file to override the annoying-ass sounds that XT and the Lil' XT pet make
 
 
